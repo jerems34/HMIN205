@@ -57,6 +57,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Exo5" />
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tp1_Java_fr" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tp1_xml_fr" />
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tp1_java_en" />
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tp1_xml_en" />
+
     </LinearLayout>
 
 </LinearLayout>

@@ -54,6 +54,32 @@ public class MainActivity extends Activity {
                 switchActivity(6);
             }
         });
+        findViewById(R.id.btn7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchActivity(7);
+            }
+        });
+
+        findViewById(R.id.btn8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchActivity(8);
+            }
+        });
+        findViewById(R.id.btn9).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchActivity(9);
+            }
+        });
+        findViewById(R.id.btn10).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                switchActivity(10);
+            }
+        });
+
     }
     private void switchActivity(int act) {
         Intent intent = null;
@@ -76,6 +102,18 @@ public class MainActivity extends Activity {
                 break;
             case 6:
                 intent = new Intent(this, Ex5.class);
+                break;
+            case 7:
+                intent = new Intent(this, Tp1_Java_fr.class);
+                break;
+            case 8:
+                intent = new Intent(this, Tp1_xml_fr.class);
+                break;
+            case 9:
+                intent = new Intent(this, TP1_Java_en.class);
+                break;
+            case 10:
+                intent = new Intent(this, Tp1_xml_en.class);
                 break;
         }
 

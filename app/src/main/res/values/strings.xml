@@ -8,4 +8,14 @@
         <string name="windows_box">windows</string>
         <string name="macos_box">macos</string>
         <string name="linux_box">linux</string>
+    <string name="nom">Nom</string>
+        <string name="prenom">Prénom</string>
+        <string name="age">Âge</string>
+        <string name="domaine">Domaine de compétence</string>
+        <string name="telephone">Numéro de téléphone</string>
+    <string name="name">Name</string>
+    <string name="firstname">First name</string>
+    <string name="domain">Skills area</string>
+    <string name="phone">Phone number</string>
+
 </resources>
